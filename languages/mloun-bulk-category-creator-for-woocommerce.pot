@@ -1,0 +1,597 @@
+# Copyright (C) 2026 Mloun
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mloun Bulk Category Creator for WooCommerce 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mloun-bulk-category-creator-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Domain: mloun-bulk-category-creator-for-woocommerce\n"
+
+#: includes/class-processor.php:749
+msgid "%1$d created, %2$d skipped, %3$d failed."
+msgstr ""
+
+#: templates/main-page.php:115
+msgid "A parent must already exist with the exact name given; otherwise the item is reported as failed."
+msgstr ""
+
+#: includes/class-admin.php:176
+msgid "All batches processed."
+msgstr ""
+
+#: includes/class-processor.php:286
+msgid "All items"
+msgstr ""
+
+#: templates/attributes-page.php:28
+#: templates/categories-page.php:48
+msgid "Already present in your store:"
+msgstr ""
+
+#: templates/attributes-page.php:32
+msgid "Attribute"
+msgstr ""
+
+#: includes/class-processor.php:502
+msgid "Attribute \"%1$s\" already exists; %2$d new value(s) added."
+msgstr ""
+
+#: includes/class-processor.php:564
+msgid "Attribute \"%s\" created."
+msgstr ""
+
+#: includes/class-processor.php:513
+msgid "Attribute already exists."
+msgstr ""
+
+#: templates/attributes-page.php:69
+msgid "Attribute data"
+msgstr ""
+
+#: includes/class-processor.php:484
+msgid "Attribute name must not be empty."
+msgstr ""
+
+#: includes/class-admin.php:77
+msgid "Attributes"
+msgstr ""
+
+#: templates/attributes-page.php:125
+#: templates/brands-page.php:148
+#: templates/categories-page.php:118
+msgid "Back to Dashboard"
+msgstr ""
+
+#: includes/class-admin.php:175
+msgid "Batch"
+msgstr ""
+
+#: templates/settings-page.php:30
+msgid "Batch Delay"
+msgstr ""
+
+#: templates/settings-page.php:23
+msgid "Batch Size"
+msgstr ""
+
+#: includes/class-processor.php:434
+msgid "Brand \"%s\" created."
+msgstr ""
+
+#: includes/class-processor.php:386
+msgid "Brand already exists."
+msgstr ""
+
+#: templates/brands-page.php:93
+msgid "Brand data"
+msgstr ""
+
+#: includes/class-processor.php:375
+msgid "Brand name must not be empty."
+msgstr ""
+
+#: templates/brands-page.php:52
+msgid "Brand plugin &amp; parent brand"
+msgstr ""
+
+#: templates/brands-page.php:55
+msgid "Brand taxonomy (plugin)"
+msgstr ""
+
+#: includes/class-admin.php:68
+msgid "Brands"
+msgstr ""
+
+#: templates/attributes-page.php:65
+msgid "Bulk Add Attributes"
+msgstr ""
+
+#: templates/brands-page.php:89
+msgid "Bulk Add Brands"
+msgstr ""
+
+#: templates/categories-page.php:58
+msgid "Bulk Add Categories"
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:70
+msgid "Bulk Add Categories:"
+msgstr ""
+
+#: includes/class-admin.php:36
+#: includes/class-admin.php:37
+msgid "Bulk Category Creator"
+msgstr ""
+
+#: includes/class-admin.php:59
+msgid "Categories"
+msgstr ""
+
+#: includes/class-processor.php:256
+msgid "Category \"%s\" created."
+msgstr ""
+
+#: includes/class-processor.php:214
+msgid "Category already exists."
+msgstr ""
+
+#: templates/categories-page.php:62
+msgid "Category data"
+msgstr ""
+
+#: includes/class-processor.php:183
+msgid "Category name must not be empty."
+msgstr ""
+
+#: templates/categories-page.php:28
+msgid "Choose the parent for all new categories (top level when left empty)."
+msgstr ""
+
+#: templates/attributes-page.php:81
+#: templates/brands-page.php:106
+#: templates/categories-page.php:74
+msgid "Clear Content"
+msgstr ""
+
+#: includes/class-admin.php:169
+msgid "Clear all content?"
+msgstr ""
+
+#: includes/class-processor.php:534
+msgid "Could not create the attribute record in the database."
+msgstr ""
+
+#: templates/main-page.php:68
+msgid "Create global attributes (color, size, material, ...) and their values in one pass. Values are added to existing attributes automatically."
+msgstr ""
+
+#: templates/main-page.php:32
+msgid "Create product categories in bulk, including multi-level hierarchies. Pick a parent from the dropdown or per line."
+msgstr ""
+
+#: includes/class-admin.php:170
+msgid "Created"
+msgstr ""
+
+#: includes/class-admin.php:49
+#: includes/class-admin.php:50
+#: includes/class-admin.php:193
+msgid "Dashboard"
+msgstr ""
+
+#: templates/attributes-page.php:103
+#: templates/brands-page.php:128
+#: templates/categories-page.php:96
+msgid "Data format"
+msgstr ""
+
+#: templates/brands-page.php:133
+#: templates/categories-page.php:102
+msgid "Description"
+msgstr ""
+
+#: templates/brands-page.php:40
+msgid "Detected brand plugins:"
+msgstr ""
+
+#: templates/main-page.php:49
+msgid "Detected brand plugins: %s"
+msgstr ""
+
+#: includes/class-admin.php:174
+msgid "Error details:"
+msgstr ""
+
+#: templates/main-page.php:80
+msgid "Every feature reads a simple text list: one item per line, fields separated by the pipe character."
+msgstr ""
+
+#: templates/main-page.php:87
+msgid "Example"
+msgstr ""
+
+#: templates/brands-page.php:136
+#: templates/categories-page.php:105
+msgid "Example (with a parent selected in the dropdown, only names are needed):"
+msgstr ""
+
+#: templates/attributes-page.php:112
+msgid "Example:"
+msgstr ""
+
+#: templates/attributes-page.php:27
+msgid "Existing attributes"
+msgstr ""
+
+#: templates/main-page.php:113
+msgid "Existing items are skipped, never overwritten."
+msgstr ""
+
+#: includes/class-admin.php:180
+msgid "Existing items list will refresh in 3 seconds…"
+msgstr ""
+
+#: templates/categories-page.php:47
+msgid "Existing top-level categories"
+msgstr ""
+
+#: includes/class-admin.php:172
+msgid "Failed"
+msgstr ""
+
+#: templates/main-page.php:85
+msgid "Feature"
+msgstr ""
+
+#: templates/main-page.php:34
+#: templates/main-page.php:59
+#: templates/main-page.php:70
+msgid "Get started"
+msgstr ""
+
+#: templates/main-page.php:77
+msgid "How it works"
+msgstr ""
+
+#: templates/brands-page.php:35
+msgid "Install and activate one of them, then refresh this page."
+msgstr ""
+
+#: templates/settings-page.php:26
+msgid "Items per AJAX request (1-500). Lower values keep requests fast on large catalogs."
+msgstr ""
+
+#: templates/brands-page.php:101
+#: templates/categories-page.php:69
+msgid "Lines starting with # or // are comments; blank lines are skipped."
+msgstr ""
+
+#: templates/attributes-page.php:76
+msgid "Lines starting with # or // are comments; blank lines are skipped. Attribute values are comma-separated."
+msgstr ""
+
+#: templates/main-page.php:112
+msgid "Lines starting with # or // are treated as comments."
+msgstr ""
+
+#: templates/attributes-page.php:82
+#: templates/brands-page.php:107
+#: templates/categories-page.php:75
+msgid "Load Example"
+msgstr ""
+
+#: templates/settings-page.php:37
+msgid "Logging"
+msgstr ""
+
+#: templates/attributes-page.php:129
+msgid "Manage Product Attributes"
+msgstr ""
+
+#: templates/settings-page.php:33
+msgid "Milliseconds to wait between batches (0-30000)."
+msgstr ""
+
+#: templates/attributes-page.php:107
+#: templates/brands-page.php:132
+#: templates/categories-page.php:100
+msgid "Name"
+msgstr ""
+
+#: templates/brands-page.php:130
+#: templates/main-page.php:98
+msgid "Name | Description | Slug"
+msgstr ""
+
+#: templates/categories-page.php:98
+#: templates/main-page.php:93
+msgid "Name | Parent | Description | Slug"
+msgstr ""
+
+#: templates/attributes-page.php:105
+#: templates/main-page.php:103
+msgid "Name | Values (comma separated) | Type | Slug"
+msgstr ""
+
+#: templates/brands-page.php:27
+msgid "No brand plugin detected"
+msgstr ""
+
+#: templates/main-page.php:56
+msgid "No brand plugin detected. Install Perfect WooCommerce Brands, YITH WooCommerce Brands or WooCommerce Brands to enable this feature."
+msgstr ""
+
+#: includes/class-processor.php:279
+msgid "No brand plugin detected. Install one of: Perfect WooCommerce Brands, YITH WooCommerce Brands, WooCommerce Brands."
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:127
+msgid "No data to process."
+msgstr ""
+
+#: includes/class-admin.php:167
+msgid "No valid data found. Please check the format."
+msgstr ""
+
+#: templates/main-page.php:109
+msgid "Notes"
+msgstr ""
+
+#: templates/attributes-page.php:104
+msgid "One attribute per line, fields separated by the pipe character:"
+msgstr ""
+
+#: templates/brands-page.php:129
+msgid "One brand per line, fields separated by the pipe character:"
+msgstr ""
+
+#: templates/categories-page.php:97
+msgid "One category per line, fields separated by the pipe character:"
+msgstr ""
+
+#: templates/main-page.php:111
+msgid "One item per line; blank lines are ignored."
+msgstr ""
+
+#: templates/categories-page.php:101
+msgid "Parent"
+msgstr ""
+
+#: templates/brands-page.php:68
+msgid "Parent %s brand"
+msgstr ""
+
+#: templates/categories-page.php:27
+msgid "Parent category"
+msgstr ""
+
+#: includes/class-processor.php:199
+msgid "Parent category \"%s\" not found."
+msgstr ""
+
+#: includes/class-processor.php:115
+msgid "Perfect WooCommerce Brands"
+msgstr ""
+
+#: includes/class-admin.php:166
+msgid "Please enter some data first."
+msgstr ""
+
+#: includes/class-admin.php:168
+msgid "Processing..."
+msgstr ""
+
+#: includes/class-admin.php:76
+#: templates/main-page.php:66
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/class-admin.php:67
+#: templates/main-page.php:41
+msgid "Product Brands"
+msgstr ""
+
+#: includes/class-admin.php:58
+#: templates/main-page.php:30
+msgid "Product Categories"
+msgstr ""
+
+#: templates/main-page.php:102
+msgid "Product attributes"
+msgstr ""
+
+#: templates/main-page.php:97
+msgid "Product brands"
+msgstr ""
+
+#: templates/main-page.php:92
+msgid "Product categories"
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "Reload now"
+msgstr ""
+
+#: includes/class-admin.php:178
+msgid "Request error"
+msgstr ""
+
+#: includes/class-admin.php:177
+msgid "Request failed: "
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:87
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-admin.php:85
+#: includes/class-admin.php:86
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:171
+msgid "Skipped"
+msgstr ""
+
+#: includes/class-admin.php:173
+msgid "Skipped items:"
+msgstr ""
+
+#: templates/attributes-page.php:33
+#: templates/attributes-page.php:110
+#: templates/brands-page.php:134
+msgid "Slug"
+msgstr ""
+
+#: templates/main-page.php:114
+msgid "Slug is optional and auto-generated when left empty."
+msgstr ""
+
+#: includes/class-admin.php:179
+#: templates/attributes-page.php:80
+#: templates/brands-page.php:105
+msgid "Start Bulk Add"
+msgstr ""
+
+#: templates/brands-page.php:28
+msgid "This feature needs one of the following brand plugins:"
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:72
+msgid "This plugin requires WooCommerce. Please install and activate WooCommerce to enable bulk adding."
+msgstr ""
+
+#: templates/attributes-page.php:117
+msgid "Tip: if the attribute already exists, its new values are added to the existing attribute."
+msgstr ""
+
+#: templates/categories-page.php:110
+msgid "Tip: with a parent selected in the dropdown below, every new category is created under it. Items whose parent cannot be found are reported as failures."
+msgstr ""
+
+#: templates/brands-page.php:70
+#: templates/categories-page.php:31
+msgid "Top level (no parent)"
+msgstr ""
+
+#: templates/settings-page.php:16
+msgid "Tune how bulk batches are submitted. Changes apply to the next bulk add run."
+msgstr ""
+
+#: templates/attributes-page.php:34
+#: templates/attributes-page.php:109
+msgid "Type"
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:118
+#: includes/class-processor.php:47
+msgid "Unknown operation type."
+msgstr ""
+
+#: includes/class-processor.php:181
+#: includes/class-processor.php:373
+#: includes/class-processor.php:482
+msgid "Unnamed item"
+msgstr ""
+
+#: templates/attributes-page.php:35
+msgid "Value Count"
+msgstr ""
+
+#: templates/attributes-page.php:108
+msgid "Values"
+msgstr ""
+
+#: templates/brands-page.php:153
+msgid "View All Brands"
+msgstr ""
+
+#: templates/categories-page.php:122
+msgid "View All Categories"
+msgstr ""
+
+#: templates/main-page.php:23
+msgid "Welcome to Bulk Add Categories for WooCommerce. Pick a feature below to bulk-create product categories, brands or attributes."
+msgstr ""
+
+#: includes/class-processor.php:117
+msgid "WooCommerce Brands"
+msgstr ""
+
+#: templates/attributes-page.php:88
+#: templates/brands-page.php:113
+#: templates/categories-page.php:81
+msgid "Working, please wait..."
+msgstr ""
+
+#: templates/settings-page.php:41
+msgid "Write operation logs to wp-content/uploads/bulk-add-categories/logs/ (off by default)"
+msgstr ""
+
+#: includes/class-processor.php:116
+msgid "YITH WooCommerce Brands"
+msgstr ""
+
+#: includes/class-bulk-add-cat.php:96
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: templates/brands-page.php:31
+msgid "free"
+msgstr ""
+
+#: templates/brands-page.php:32
+msgid "free version"
+msgstr ""
+
+#: includes/class-processor.php:287
+msgid "no brand taxonomy available"
+msgstr ""
+
+#: templates/brands-page.php:33
+msgid "official WooCommerce extension"
+msgstr ""
+
+#: templates/brands-page.php:133
+#: templates/categories-page.php:102
+msgid "optional"
+msgstr ""
+
+#: templates/attributes-page.php:110
+#: templates/brands-page.php:134
+#: templates/categories-page.php:103
+msgid "optional, URL-friendly identifier; auto-generated when empty"
+msgstr ""
+
+#: templates/attributes-page.php:108
+msgid "optional, comma-separated attribute values (e.g. \"Red,Blue,Black\")"
+msgstr ""
+
+#: templates/attributes-page.php:109
+msgid "optional, default \"select\". Accepted values: select, text, textarea, number, email, color, date, url"
+msgstr ""
+
+#: templates/categories-page.php:101
+msgid "optional, name of an existing parent category; empty for top level"
+msgstr ""
+
+#: templates/attributes-page.php:107
+msgid "required, display name of the attribute (e.g. \"Color\", \"Size\")"
+msgstr ""
+
+#: templates/brands-page.php:132
+msgid "required, display name of the brand"
+msgstr ""
+
+#: templates/categories-page.php:100
+msgid "required, display name of the category"
+msgstr ""
+
+#: includes/class-logger.php:59
+msgid "system"
+msgstr ""

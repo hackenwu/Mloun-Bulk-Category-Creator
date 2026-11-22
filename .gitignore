@@ -1,0 +1,20 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Build artifacts
+*.zip
+*.tar.gz
+node_modules/
+vendor/
+composer.lock
+
+# Local logs / temp
+*.log
+*.bak
+*.tmp
+*.orig

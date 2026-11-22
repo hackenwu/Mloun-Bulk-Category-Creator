@@ -1,0 +1,512 @@
+/**
+ * Bulk Add Categories for WooCommerce - Admin Styles
+ * Mloun brand colors: #0e91e3 (blue), #f06b03 (orange)
+ */
+
+/* ------------------------------------------------------------------
+ * Layout
+ * ------------------------------------------------------------------ */
+
+.bulk-add-cat-wrap {
+    max-width: 1200px;
+}
+
+.bulk-add-cat-wrap h1 {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #0e91e3;
+    color: #1d2327;
+}
+
+.bulk-add-cat-wrap .notice {
+    margin: 15px 0;
+}
+
+/* ------------------------------------------------------------------
+ * Cards (dashboard)
+ * ------------------------------------------------------------------ */
+
+.bac-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.bac-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-top: 3px solid #0e91e3;
+    border-radius: 10px;
+    padding: 28px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.bac-card:hover {
+    box-shadow: 0 6px 20px rgba(14, 145, 227, 0.18);
+    transform: translateY(-2px);
+}
+
+.bac-card h3 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0a7bc0;
+}
+
+.bac-card h3 .dashicons {
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    color: #f06b03;
+}
+
+.bac-card p {
+    color: #646970;
+    margin-bottom: 20px;
+    line-height: 1.55;
+}
+
+.bac-card .button {
+    width: 100%;
+    text-align: center;
+    background: #0e91e3 !important;
+    border-color: #0e91e3 !important;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px 16px;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.bac-card .button:hover,
+.bac-card .button:focus {
+    background: #0a7bc0 !important;
+    border-color: #0a7bc0 !important;
+}
+
+/* ------------------------------------------------------------------
+ * Form sections
+ * ------------------------------------------------------------------ */
+
+.bac-form-section {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-left: 4px solid #f06b03;
+    border-radius: 10px;
+    padding: 28px;
+    margin-top: 20px;
+}
+
+.bac-form-section h2 {
+    margin-top: 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #0e91e3;
+    color: #0a7bc0;
+    font-size: 18px;
+}
+
+.bac-form-group {
+    margin-bottom: 20px;
+}
+
+.bac-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.bac-form-group .description {
+    color: #646970;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.bac-form-group textarea {
+    width: 100%;
+    min-height: 300px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+
+.bac-form-group textarea:focus {
+    border-color: #0e91e3;
+    box-shadow: 0 0 0 3px rgba(14, 145, 227, 0.18);
+    outline: none;
+}
+
+.bac-form-group input[type=text],
+.bac-form-group select {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Dropdowns */
+
+#parent_category,
+#brand_taxonomy,
+.bac-brand-parent-group select {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+    background-color: #fff;
+    min-height: 42px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#parent_category:focus,
+#brand_taxonomy:focus,
+.bac-brand-parent-group select:focus {
+    border-color: #0e91e3;
+    box-shadow: 0 0 0 3px rgba(14, 145, 227, 0.18);
+    outline: none;
+}
+
+.bac-brand-parent-group {
+    margin-top: 15px;
+}
+
+/* ------------------------------------------------------------------
+ * Syntax help
+ * ------------------------------------------------------------------ */
+
+.bac-syntax-help {
+    background: #e6f4fe;
+    border: 1px solid #b3d9f5;
+    border-left: 4px solid #0e91e3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.bac-syntax-help h4 {
+    margin: 0 0 10px;
+    color: #0a7bc0;
+}
+
+.bac-syntax-help pre {
+    background: #1d2327;
+    color: #eaeaeb;
+    padding: 14px 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.bac-syntax-help ul {
+    margin: 10px 0;
+}
+
+/* ------------------------------------------------------------------
+ * Buttons
+ * ------------------------------------------------------------------ */
+
+.bac-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f1;
+}
+
+.bac-button-group .button-primary {
+    min-width: 140px;
+    background: #0e91e3 !important;
+    border-color: #0e91e3 !important;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.bac-button-group .button-primary:hover,
+.bac-button-group .button-primary:focus {
+    background: #0a7bc0 !important;
+    border-color: #0a7bc0 !important;
+}
+
+.bac-button-group .button-secondary {
+    border-radius: 6px;
+    border-color: #f06b03 !important;
+    color: #cc5602 !important;
+    font-weight: 500;
+}
+
+.bac-button-group .button-secondary:hover,
+.bac-button-group .button-secondary:focus {
+    background: #fff3e9 !important;
+    border-color: #f06b03 !important;
+}
+
+/* ------------------------------------------------------------------
+ * Loading & progress
+ * ------------------------------------------------------------------ */
+
+.bac-loading {
+    display: none;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    color: #646970;
+}
+
+.bac-loading.show {
+    display: flex;
+}
+
+.bac-loading .spinner {
+    visibility: visible;
+}
+
+.bac-progress {
+    display: none;
+    margin-top: 15px;
+}
+
+.bac-progress.show {
+    display: block;
+}
+
+.bac-progress-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.bac-progress-fill {
+    background: linear-gradient(90deg, #0e91e3, #f06b03);
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+
+.bac-progress-text {
+    margin-top: 6px;
+    color: #646970;
+    font-size: 12px;
+}
+
+/* ------------------------------------------------------------------
+ * Results
+ * ------------------------------------------------------------------ */
+
+.bac-results {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e6f4fe;
+    border-radius: 10px;
+    display: none;
+}
+
+.bac-results.show {
+    display: block;
+}
+
+.bac-results .success-message {
+    color: #0a7a2e;
+    background: #e6f9ed;
+    padding: 12px 15px;
+    border-left: 4px solid #00a32a;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.bac-results .warning-message {
+    color: #cc5602;
+    background: #fff3e9;
+    padding: 12px 15px;
+    border-left: 4px solid #f06b03;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.bac-results .error-message {
+    color: #d63638;
+    background: #fcf0f1;
+    padding: 12px 15px;
+    border-left: 4px solid #d63638;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Refresh hint */
+
+.bac-refresh-hint {
+    margin-top: 14px;
+    padding: 10px 14px;
+    background: #fff3e9;
+    border-left: 4px solid #f06b03;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #cc5602;
+}
+
+/* Three-state stats */
+
+.bac-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.bac-stat {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #dcdcde;
+    min-width: 120px;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.bac-stat .number {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.bac-stat .label {
+    color: #646970;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.bac-stat.created {
+    border-left: 4px solid #00a32a;
+}
+
+.bac-stat.created .number {
+    color: #00a32a;
+}
+
+.bac-stat.skipped {
+    border-left: 4px solid #f06b03;
+}
+
+.bac-stat.skipped .number {
+    color: #f06b03;
+}
+
+.bac-stat.failed {
+    border-left: 4px solid #d63638;
+}
+
+.bac-stat.failed .number {
+    color: #d63638;
+}
+
+/* Collapsible skipped list */
+
+.bac-skipped-list {
+    margin: 10px 0;
+    font-size: 13px;
+    color: #646970;
+}
+
+.bac-skipped-list summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #f06b03;
+}
+
+.bac-skipped-list ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+/* Error list */
+
+.bac-error-list {
+    background: #fcf0f1;
+    border-left: 4px solid #d63638;
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.bac-error-list ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+
+/* ------------------------------------------------------------------
+ * Two-column layout (form left, data format right)
+ * ------------------------------------------------------------------ */
+
+.bac-two-col {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.bac-two-col-main {
+    min-width: 0;
+}
+
+.bac-two-col-main .bac-form-section {
+    margin-top: 0;
+}
+
+.bac-two-col-main .bac-form-section + .bac-form-section {
+    margin-top: 20px;
+}
+
+.bac-two-col-side {
+    position: sticky;
+    top: 48px;
+}
+
+.bac-two-col-side .bac-syntax-help {
+    margin-top: 0;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+@media (max-width: 960px) {
+    .bac-two-col {
+        grid-template-columns: 1fr;
+    }
+    .bac-two-col-side {
+        position: static;
+        order: -1;
+        max-height: none;
+    }
+    .bac-two-col-side .bac-syntax-help {
+        max-height: none;
+    }
+}
+
+/* ------------------------------------------------------------------
+ * Sidebar menu version badge
+ * ------------------------------------------------------------------ */
+
+.bac-menu-version {
+    display: inline-block;
+    background: #f06b03;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: 6px;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+}
