@@ -2,6 +2,8 @@
 
 Bulk create WooCommerce product categories, brands and global attribute values from simple text lists — with duplicate skipping.
 
+**English** | [简体中文](README.zh-CN.md)
+
 This repository is the **free edition** source (v1.2.1), the same code published on WordPress.org.
 
 - WordPress.org: <https://wordpress.org/plugins/mloun-bulk-category-creator-for-woocommerce/>
